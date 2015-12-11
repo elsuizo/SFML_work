@@ -53,8 +53,7 @@ int main()
     */
     // load textures
     Texture texture;
-    if(!texture.loadFromFile("../Images/OldChicago.png"));
-        return -1;
+    texture.loadFromFile("../Images/OldChicago.png");
 
     // create a rectangleshape and load a texture
     RectangleShape rect(Vector2f(200, 150));
